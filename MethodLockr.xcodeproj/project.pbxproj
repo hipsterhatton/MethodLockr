@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC139B211AD5B30700873465 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC139B201AD5B30700873465 /* Cocoa.framework */; };
+		DC139B2B1AD5B30700873465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC139B291AD5B30700873465 /* InfoPlist.strings */; };
+		DC139B2D1AD5B30700873465 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC139B2C1AD5B30700873465 /* main.m */; };
+		DC139B311AD5B30700873465 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DC139B2F1AD5B30700873465 /* Credits.rtf */; };
+		DC139B341AD5B30700873465 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC139B331AD5B30700873465 /* AppDelegate.m */; };
+		DC139B371AD5B30700873465 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC139B351AD5B30700873465 /* MainMenu.xib */; };
+		DC139B391AD5B30700873465 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC139B381AD5B30700873465 /* Images.xcassets */; };
+		DC139B401AD5B30800873465 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC139B3F1AD5B30800873465 /* XCTest.framework */; };
+		DC139B411AD5B30800873465 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC139B201AD5B30700873465 /* Cocoa.framework */; };
+		DC139B491AD5B30800873465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC139B471AD5B30800873465 /* InfoPlist.strings */; };
+		DC139B4B1AD5B30800873465 /* MethodLockrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC139B4A1AD5B30800873465 /* MethodLockrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC139B421AD5B30800873465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC139B151AD5B30700873465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC139B1C1AD5B30700873465;
+			remoteInfo = MethodLockr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC139B1D1AD5B30700873465 /* MethodLockr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodLockr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC139B201AD5B30700873465 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DC139B231AD5B30700873465 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DC139B241AD5B30700873465 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC139B251AD5B30700873465 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC139B281AD5B30700873465 /* MethodLockr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MethodLockr-Info.plist"; sourceTree = "<group>"; };
+		DC139B2A1AD5B30700873465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC139B2C1AD5B30700873465 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC139B2E1AD5B30700873465 /* MethodLockr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MethodLockr-Prefix.pch"; sourceTree = "<group>"; };
+		DC139B301AD5B30700873465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DC139B321AD5B30700873465 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC139B331AD5B30700873465 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC139B361AD5B30700873465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DC139B381AD5B30700873465 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC139B3E1AD5B30800873465 /* MethodLockrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodLockrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC139B3F1AD5B30800873465 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC139B461AD5B30800873465 /* MethodLockrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MethodLockrTests-Info.plist"; sourceTree = "<group>"; };
+		DC139B481AD5B30800873465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC139B4A1AD5B30800873465 /* MethodLockrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodLockrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC139B1A1AD5B30700873465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B211AD5B30700873465 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC139B3B1AD5B30800873465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B411AD5B30800873465 /* Cocoa.framework in Frameworks */,
+				DC139B401AD5B30800873465 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC139B141AD5B30700873465 = {
+			isa = PBXGroup;
+			children = (
+				DC139B261AD5B30700873465 /* MethodLockr */,
+				DC139B441AD5B30800873465 /* MethodLockrTests */,
+				DC139B1F1AD5B30700873465 /* Frameworks */,
+				DC139B1E1AD5B30700873465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC139B1E1AD5B30700873465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B1D1AD5B30700873465 /* MethodLockr.app */,
+				DC139B3E1AD5B30800873465 /* MethodLockrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC139B1F1AD5B30700873465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B201AD5B30700873465 /* Cocoa.framework */,
+				DC139B3F1AD5B30800873465 /* XCTest.framework */,
+				DC139B221AD5B30700873465 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC139B221AD5B30700873465 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B231AD5B30700873465 /* AppKit.framework */,
+				DC139B241AD5B30700873465 /* CoreData.framework */,
+				DC139B251AD5B30700873465 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DC139B261AD5B30700873465 /* MethodLockr */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B321AD5B30700873465 /* AppDelegate.h */,
+				DC139B331AD5B30700873465 /* AppDelegate.m */,
+				DC139B351AD5B30700873465 /* MainMenu.xib */,
+				DC139B381AD5B30700873465 /* Images.xcassets */,
+				DC139B271AD5B30700873465 /* Supporting Files */,
+			);
+			path = MethodLockr;
+			sourceTree = "<group>";
+		};
+		DC139B271AD5B30700873465 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B281AD5B30700873465 /* MethodLockr-Info.plist */,
+				DC139B291AD5B30700873465 /* InfoPlist.strings */,
+				DC139B2C1AD5B30700873465 /* main.m */,
+				DC139B2E1AD5B30700873465 /* MethodLockr-Prefix.pch */,
+				DC139B2F1AD5B30700873465 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC139B441AD5B30800873465 /* MethodLockrTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B4A1AD5B30800873465 /* MethodLockrTests.m */,
+				DC139B451AD5B30800873465 /* Supporting Files */,
+			);
+			path = MethodLockrTests;
+			sourceTree = "<group>";
+		};
+		DC139B451AD5B30800873465 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B461AD5B30800873465 /* MethodLockrTests-Info.plist */,
+				DC139B471AD5B30800873465 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC139B1C1AD5B30700873465 /* MethodLockr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC139B4E1AD5B30800873465 /* Build configuration list for PBXNativeTarget "MethodLockr" */;
+			buildPhases = (
+				DC139B191AD5B30700873465 /* Sources */,
+				DC139B1A1AD5B30700873465 /* Frameworks */,
+				DC139B1B1AD5B30700873465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MethodLockr;
+			productName = MethodLockr;
+			productReference = DC139B1D1AD5B30700873465 /* MethodLockr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC139B3D1AD5B30800873465 /* MethodLockrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC139B511AD5B30800873465 /* Build configuration list for PBXNativeTarget "MethodLockrTests" */;
+			buildPhases = (
+				DC139B3A1AD5B30800873465 /* Sources */,
+				DC139B3B1AD5B30800873465 /* Frameworks */,
+				DC139B3C1AD5B30800873465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC139B431AD5B30800873465 /* PBXTargetDependency */,
+			);
+			name = MethodLockrTests;
+			productName = MethodLockrTests;
+			productReference = DC139B3E1AD5B30800873465 /* MethodLockrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC139B151AD5B30700873465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stephen Hatton";
+				TargetAttributes = {
+					DC139B3D1AD5B30800873465 = {
+						TestTargetID = DC139B1C1AD5B30700873465;
+					};
+				};
+			};
+			buildConfigurationList = DC139B181AD5B30700873465 /* Build configuration list for PBXProject "MethodLockr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC139B141AD5B30700873465;
+			productRefGroup = DC139B1E1AD5B30700873465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC139B1C1AD5B30700873465 /* MethodLockr */,
+				DC139B3D1AD5B30800873465 /* MethodLockrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC139B1B1AD5B30700873465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B2B1AD5B30700873465 /* InfoPlist.strings in Resources */,
+				DC139B391AD5B30700873465 /* Images.xcassets in Resources */,
+				DC139B311AD5B30700873465 /* Credits.rtf in Resources */,
+				DC139B371AD5B30700873465 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC139B3C1AD5B30800873465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B491AD5B30800873465 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC139B191AD5B30700873465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B341AD5B30700873465 /* AppDelegate.m in Sources */,
+				DC139B2D1AD5B30700873465 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC139B3A1AD5B30800873465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC139B4B1AD5B30800873465 /* MethodLockrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC139B431AD5B30800873465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC139B1C1AD5B30700873465 /* MethodLockr */;
+			targetProxy = DC139B421AD5B30800873465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC139B291AD5B30700873465 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC139B2A1AD5B30700873465 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC139B2F1AD5B30700873465 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC139B301AD5B30700873465 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DC139B351AD5B30700873465 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC139B361AD5B30700873465 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DC139B471AD5B30800873465 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC139B481AD5B30800873465 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC139B4C1AD5B30800873465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC139B4D1AD5B30800873465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC139B4F1AD5B30800873465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MethodLockr/MethodLockr-Prefix.pch";
+				INFOPLIST_FILE = "MethodLockr/MethodLockr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC139B501AD5B30800873465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MethodLockr/MethodLockr-Prefix.pch";
+				INFOPLIST_FILE = "MethodLockr/MethodLockr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC139B521AD5B30800873465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MethodLockr.app/Contents/MacOS/MethodLockr";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MethodLockr/MethodLockr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MethodLockrTests/MethodLockrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC139B531AD5B30800873465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MethodLockr.app/Contents/MacOS/MethodLockr";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MethodLockr/MethodLockr-Prefix.pch";
+				INFOPLIST_FILE = "MethodLockrTests/MethodLockrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC139B181AD5B30700873465 /* Build configuration list for PBXProject "MethodLockr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC139B4C1AD5B30800873465 /* Debug */,
+				DC139B4D1AD5B30800873465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC139B4E1AD5B30800873465 /* Build configuration list for PBXNativeTarget "MethodLockr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC139B4F1AD5B30800873465 /* Debug */,
+				DC139B501AD5B30800873465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC139B511AD5B30800873465 /* Build configuration list for PBXNativeTarget "MethodLockrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC139B521AD5B30800873465 /* Debug */,
+				DC139B531AD5B30800873465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC139B151AD5B30700873465 /* Project object */;
+}
