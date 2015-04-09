@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Method Lockr/MethodLockr.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, retain) MethodLockr *lockr;
 
 @end

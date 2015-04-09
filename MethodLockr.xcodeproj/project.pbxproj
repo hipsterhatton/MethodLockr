@@ -18,6 +18,7 @@
 		DC139B411AD5B30800873465 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC139B201AD5B30700873465 /* Cocoa.framework */; };
 		DC139B491AD5B30800873465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC139B471AD5B30800873465 /* InfoPlist.strings */; };
 		DC139B4B1AD5B30800873465 /* MethodLockrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC139B4A1AD5B30800873465 /* MethodLockrTests.m */; };
+		DC139B571AD5B33600873465 /* MethodLockr.m in Sources */ = {isa = PBXBuildFile; fileRef = DC139B561AD5B33600873465 /* MethodLockr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		DC139B461AD5B30800873465 /* MethodLockrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MethodLockrTests-Info.plist"; sourceTree = "<group>"; };
 		DC139B481AD5B30800873465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC139B4A1AD5B30800873465 /* MethodLockrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodLockrTests.m; sourceTree = "<group>"; };
+		DC139B551AD5B33600873465 /* MethodLockr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodLockr.h; path = "Method Lockr/MethodLockr.h"; sourceTree = "<group>"; };
+		DC139B561AD5B33600873465 /* MethodLockr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodLockr.m; path = "Method Lockr/MethodLockr.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			children = (
 				DC139B321AD5B30700873465 /* AppDelegate.h */,
 				DC139B331AD5B30700873465 /* AppDelegate.m */,
+				DC139B541AD5B32200873465 /* Method Lockr */,
 				DC139B351AD5B30700873465 /* MainMenu.xib */,
 				DC139B381AD5B30700873465 /* Images.xcassets */,
 				DC139B271AD5B30700873465 /* Supporting Files */,
@@ -152,6 +156,15 @@
 				DC139B471AD5B30800873465 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC139B541AD5B32200873465 /* Method Lockr */ = {
+			isa = PBXGroup;
+			children = (
+				DC139B551AD5B33600873465 /* MethodLockr.h */,
+				DC139B561AD5B33600873465 /* MethodLockr.m */,
+			);
+			name = "Method Lockr";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC139B341AD5B30700873465 /* AppDelegate.m in Sources */,
+				DC139B571AD5B33600873465 /* MethodLockr.m in Sources */,
 				DC139B2D1AD5B30700873465 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
