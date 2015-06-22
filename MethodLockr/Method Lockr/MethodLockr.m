@@ -32,16 +32,16 @@ int const kFOUND_METHOD =   1;
             [_lockedMethods[[results[kFOUND_CLASS] intValue]][@"Methods"] addObject:methodAndClass[1]];
             return true;
         }
-
+        
     } else {
         
         //NSLog(@"NO CLASS: Method: %@ || Class: %@", methodAndClass[0], methodAndClass[1]);
         
         [_lockedMethods addObject:[[NSMutableDictionary alloc]
                                    initWithDictionary:@{
-                                    @"Class"   : methodAndClass[0],
-                                    @"Methods" : [[NSMutableArray alloc] initWithObjects:methodAndClass[1], nil]
-                                   }]];
+                                                        @"Class"   : methodAndClass[0],
+                                                        @"Methods" : [[NSMutableArray alloc] initWithObjects:methodAndClass[1], nil]
+                                                        }]];
         return true;
     }
     
@@ -65,6 +65,19 @@ int const kFOUND_METHOD =   1;
     }
 }
 
+/*
+ 
+// This method requires the RXPromise library...
+ 
+- (void)cancel:(RXPromise *)promise
+{
+    NSLog(@"CANCELLING...");
+    [promise cancelWithReason:@"Manual Cancel..."];
+    promise = nil;
+    NSLog(@"...CANCELLED");
+}
+*/
+
 
 
 #pragma mark - Check Data (Private) Method
@@ -83,7 +96,7 @@ int const kFOUND_METHOD =   1;
     for (int a = 0; a < [_lockedMethods count]; a++) {
         
         if ([_lockedMethods[a][@"Class"] isEqualToString:methodAndClass[0]]) {
-         
+            
             foundClass = a;
             
             for (int b = 0; b < [_lockedMethods[a][@"Methods"] count]; b++) {

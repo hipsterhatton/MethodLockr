@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import <RXPromise/RXPromise.h>
 
 // Returns (array): method and class
 #define func @[ [NSString stringWithFormat:@"%@", [self className]], NSStringFromSelector(_cmd)]
@@ -17,5 +18,8 @@
 
 - (BOOL)lock:(NSArray *)methodAndClass;
 - (void)unlock:(NSArray *)methodAndClass;
+
+// This method requires the RXPromise library...
+//- (void)cancel:(RXPromise *)promise;
 
 @end
